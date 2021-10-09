@@ -79,7 +79,7 @@ nav .container ul li a:hover{
    height: 100vh;
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items:center;
    padding-top: 40px;
    background:rgba(0, 0, 0, 0.602) url(media/bg.jpeg);
@@ -94,6 +94,7 @@ img{
     width: 700px;
     height: 270px;
     z-index: 1;
+    margin-top: 30px;
 }
 
 
@@ -139,7 +140,7 @@ img{
    font-family: myfont;
 
 }
-.social-media{
+.social-media{  
     height: 110px;
     width: 70px;
     position: absolute;
@@ -165,10 +166,12 @@ i{
 .footer{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .footer img{
     width: 20px ;
     height: 23px;
+    margin-top: 0;
 }
 .footer .r{
     color: white;
@@ -189,7 +192,7 @@ i{
 .footer span{
     margin-left: 6px;
     width: 2px;
-    height: 17px;
+    height: 22px;
     background-color: white;
 }
 @media (max-width:900px) {
